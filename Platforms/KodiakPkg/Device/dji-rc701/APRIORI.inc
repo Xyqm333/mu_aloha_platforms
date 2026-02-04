@@ -59,7 +59,7 @@ APRIORI DXE {
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
 
 !if $(USE_SIMPLEFBDXE) == false
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
     INF AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
 !else
     INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
