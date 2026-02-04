@@ -35,7 +35,7 @@ APRIORI DXE {
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/PmicDxeLa.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/PmicDxeLa.inf
 
     FILE DRIVER = 6b38f7b4-ad98-40e9-9093-aca2b5a253c4 {
             SECTION PE32 = KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.efi
@@ -49,16 +49,16 @@ APRIORI DXE {
 
     INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
     INF MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/SdccDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/SdccDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
     INF MdeModulePkg/Bus/Pci/NvmExpressDxe/NvmExpressDxe.inf
     INF FatPkg/EnhancedFatDxe/Fat.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/TzDxe/TzDxeLA.inf
     INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/QcomWDogDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/QcomWDogDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
 
-    FILE DRIVER = 1C04F529-0612-4319-9315-B2E75C16810A {
+    #FILE DRIVER = 1C04F529-0612-4319-9315-B2E75C16810A {
         SECTION PE32 = KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/FeatureEnablerDxe.efi
         SECTION UI = "FeatureEnablerDxe"
     }
@@ -112,10 +112,10 @@ APRIORI DXE {
     }
 
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UsbConfigDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UsbConfigDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/TsensDxe/TsensDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
 !if $(USE_SIMPLEFBDXE) == false
