@@ -130,11 +130,6 @@
             SECTION RAW = KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/SecParti.cfg
     }
 
-    FILE FREEFORM = A91D838E-A5FA-4138-825D-455E23030794 {
-            SECTION UI = "logo1.bmp"
-            SECTION RAW = KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/logo1.bmp
-    }
-
 
     FILE FREEFORM = 8CAE2C55-FC5A-410B-812B-8CA22F572F36 {
             SECTION UI = "Panel_truly_wqxga_dsc_cmd.xml"
