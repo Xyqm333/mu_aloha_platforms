@@ -188,37 +188,37 @@
 
     FILE FREEFORM = 40A65872-5741-483D-8D59-D22B350EB6EC {
         SECTION UI = "Panel_ili9881p_720p_video.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_ili9881p_720p_video.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ili9881p_720p_video.xml
     }
 
 
     FILE FREEFORM = 7EFF53B2-A67C-43EB-925D-C6F3DDB970AE {
         SECTION UI = "Panel_boe_1080p_video.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_boe_1080p_video.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_boe_1080p_video.xml
     }
 
 
     FILE FREEFORM = CA8A6700-070A-412E-B807-A10096AC8BAD {
         SECTION UI = "Panel_skyworth4_1080p_video.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_skyworth4_1080p_video.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_skyworth4_1080p_video.xml
     }
 
 
     FILE FREEFORM = 2DDE467F-FDD3-4203-B057-1B9F5E378774 {
         SECTION UI = "Panel_truly7131_1080p_video.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_truly7131_1080p_video.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_truly7131_1080p_video.xml
     }
 
 
     FILE FREEFORM = 1DE92510-CC76-11ED-AFA1-0242AC120002 {
         SECTION UI = "Panel_ft7250_boe_fhd_vid.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_ft7250_boe_fhd_vid.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ft7250_boe_fhd_vid.xml
     }
 
 
     FILE FREEFORM = 4BF5B29C-0674-11EE-BE56-0242AC120002 {
         SECTION UI = "Panel_ft8206_skyworth_fhd_vid.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_ft8206_skyworth_fhd_vid.xml
+        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_ft8206_skyworth_fhd_vid.xml
     }
 
 
