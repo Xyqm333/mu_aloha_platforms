@@ -186,41 +186,6 @@
         SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_nt36860_wqhd_dsc_vid.xml
     }
 
-    FILE FREEFORM = 81CE7295-491D-4E3F-AAA7-AB43FEF2F615 {
-        SECTION UI = "Panel_r66451_60hz_fhd_plus_dsc_cmd.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd.xml
-    }
-
-    FILE FREEFORM = 81CE7295-491D-4E3F-AAA7-AB43FEF2F692 {
-        SECTION UI = "Panel_r66451_fhd_plus_60hz_dsc_cmd.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_fhd_plus_60hz_dsc_cmd.xml
-    }
-
-    FILE FREEFORM = 8297C793-9861-422C-9F67-D447AF1EA812 {
-        SECTION UI = "Panel_r66451_120hz_fhd_plus_dsc_cmd.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd.xml
-    }
-
-    FILE FREEFORM = 61156380-EB8A-4618-940F-AB9BDEA1EEC2 {
-        SECTION UI = "Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_cmd_hdk.xml
-    }
-
-    FILE FREEFORM = 44B09226-C2B4-45ED-AA6F-6686DB103978 {
-        SECTION UI = "Panel_r66451_120hz_fhd_plus_dsc_vid.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_120hz_fhd_plus_dsc_vid.xml
-    }
-
-    FILE FREEFORM = D3F8580C-CCB8-4804-BB03-776E7B542FC2 {
-        SECTION UI = "Panel_secondary_truly_1080p_cmd.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_secondary_truly_1080p_cmd.xml
-    }
-
-    FILE FREEFORM = D192FEE9-6A04-4BE8-ABFE-5534E2B457EC {
-        SECTION UI = "Panel_secondary_truly_1080p_vid.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_secondary_truly_1080p_vid.xml
-    }
-
     FILE FREEFORM = 40A65872-5741-483D-8D59-D22B350EB6EC {
         SECTION UI = "Panel_ili9881p_720p_video.xml"
         SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_ili9881p_720p_video.xml
@@ -256,31 +221,6 @@
         SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/RawFiles/Panel_ft8206_skyworth_fhd_vid.xml
     }
 
-
-    FILE FREEFORM = 13594E78-635E-49C9-80C7-F2A3EF8D959B {
-        SECTION UI = "Panel_r66451_60hz_fhd_plus_dsc_cmd_cphy.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_60hz_fhd_plus_dsc_cmd_cphy.xml
-    }
-
-    FILE FREEFORM = 40C19F7E-C171-4C05-9C56-DE6E30AED8C9 {
-        SECTION UI = "Panel_r66451_90hz_fhd_plus_dsc_vid_cphy.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_r66451_90hz_fhd_plus_dsc_vid_cphy.xml
-    }
-
-    FILE FREEFORM = C32CB97A-D116-4D64-83B9-6BA1236057AD {
-        SECTION UI = "Panel_boe_amoled_wqhd_dsc_cmd_demura.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_boe_amoled_wqhd_dsc_cmd_demura.xml
-    }
-
-    FILE FREEFORM = 453D4CEB-2EC9-49A6-8EEC-B233EB679591 {
-        SECTION UI = "Panel_boe_amoled_wqhd_dsc_vid_demura.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_boe_amoled_wqhd_dsc_vid_demura.xml
-    }
-
-    FILE FREEFORM = 602CFFCD-8A5E-438E-B432-BF1A656A2561 {
-        SECTION UI = "Panel_secondary_r66451_fhd_plus_dsc_cmd.xml"
-        SECTION RAW = $(PACKAGE_NAME)/Device/$(TARGET_DEVICE)/Binaries/RawFiles/Panel_secondary_r66451_fhd_plus_dsc_cmd.xml
-    }
 
     FILE FREEFORM = 21E9BDD9-6C3F-4F10-84A5-BBEC322741F1 {
         SECTION UI = "uefipil.cfg"
