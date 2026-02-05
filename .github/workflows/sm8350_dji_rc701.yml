@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: SM7325 dji, Inc. rc701 debug
+name: SM8350 dji rc701 debug qcs5430
 
 # Controls when the workflow will run
 on:
@@ -8,7 +8,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Platforms/KodiakPkg/Device/dji-rc701/**'
+      - 'Platforms/SurfaceDuo2Pkg/Device/dji-rc701/**'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
