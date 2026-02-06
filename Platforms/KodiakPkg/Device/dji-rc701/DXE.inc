@@ -110,11 +110,6 @@
             SECTION UI = "UsbMassStorageDxe"
     }
 
-    FILE DRIVER = 1C04F529-0612-4319-9315-B2E75C16810A {
-            SECTION PE32 = KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/FeatureEnablerDxe.efi
-            SECTION UI = "FeatureEnablerDxe"
-    }
-
     FILE DRIVER = cccb0c28-4b24-11d5-9a5a-0090273fc14d {
             SECTION PE32 = KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe.efi
             SECTION UI = "GraphicsConsoleDxe"
