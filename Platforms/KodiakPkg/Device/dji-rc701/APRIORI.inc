@@ -63,12 +63,7 @@ APRIORI DXE {
         SECTION UI = "FeatureEnablerDxe"
     }
 
-!if $(USE_SIMPLEFBDXE) == false
-    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
-    INF AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
-!else
     INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
-!endif
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/FvUtilsDxe/FvUtilsDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/PILDxe/PILDxe.inf

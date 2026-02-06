@@ -4,12 +4,7 @@
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/PmicDxeLa.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/QcomWDogDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/SdccDxe.inf
-!if $(USE_SIMPLEFBDXE) == false
-    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
-    INF AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
-!else
     INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
-!endif
     INF AndromedaPkg/Driver/RamPartitionDxe/RamPartitionDxe.inf
     INF Kodiak/BOOT.MXF.1.0.1-00206-KODIAKWP-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
     INF Kodiak/BOOT.MXF.1.0.1-00206-KODIAKWP-1/QcomPkg/Drivers/RawFileSystemDxe/RawFileSystemDxe.inf
