@@ -5,7 +5,7 @@
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/QcomWDogDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/SdccDxe.inf
 !if $(USE_SIMPLEFBDXE) == false
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/DisplayDxe.inf
     INF AndromedaPkg/Driver/DisplayCallerDxe/DisplayCallerDxe.inf
 !else
     INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
