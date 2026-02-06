@@ -1,5 +1,5 @@
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
-    INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
+    #INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UFSDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/UsbConfigDxe.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/PmicDxeLa.inf
     INF KodiakPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/QcomWDogDxe.inf
